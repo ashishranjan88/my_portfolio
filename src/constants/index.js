@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  
 } from "../assets";
 
 export const navLinks = [
@@ -115,7 +116,7 @@ const technologies = [
 ];
 
 const experiences = [
-  {
+ /* {
     title: "React.js Developer",
     company_name: "Starbucks",
     icon: starbucks,
@@ -140,21 +141,21 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
-  },
+  },*/
   {
     title: "Web Developer",
-    company_name: "Shopify",
+    company_name: "Freelancer",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "jul 2024 - aug 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+     "Developed and maintained a gym website using React.js and related technologies, ensuring a dynamic and user-friendly experience.",
+"Collaborated with designers, product managers, and developers to create a high-quality and engaging fitness platform.",
+"Implemented responsive design strategies to enhance accessibility and ensure seamless cross-browser compatibility.",
+"Conducted code reviews and provided constructive feedback to improve performance and maintainability.,"
     ],
   },
-  {
+  /*{
     title: "Full stack Developer",
     company_name: "Meta",
     icon: meta,
@@ -166,52 +167,47 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
-  },
+  },*/
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Nice website ",
+    name: "Ananya Sharma",
+    image: "https://randomuser.me/api/portraits/women/7.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Working with Ashish was a game-changer for our startup. His attention to detail and commitment to excellence set him apart.",
+    name: " Alok Tiwari",
+    image: starbucks ,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "amazing website",
+    name: "Ayush Mishra",
+    image: tesla,
   },
 ];
 
+
 const projects = [
   {
-    name: "Car Rent",
+    name: "Real-time Tracker",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A real-time tracking platform built with the MERN stack, Socket.IO, and Leaflet.js, enabling users to monitor live locations with seamless updates. Leaflet.js provides interactive and lightweight mapping, making it perfect for delivery services, fleet management, and live tracking applications. With instant data synchronization, users get a smooth and dynamic tracking experience. 🚀",
     tags: [
       {
-        name: "react",
+        name: "MERN",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "socket.io",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "leaflet.js",
         color: "pink-text-gradient",
       },
     ],
@@ -240,16 +236,16 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Ashish Tours& Travels",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A hotel booking platform designed for seamless travel experiences in Varanasi, allowing users to explore, book, and manage stays with real-time updates. Built with Node.js, Express.js, MongoDB, Mongoose, and React.js, it offers dynamic hotel listings, intuitive management tools, and high-quality image hosting via Cloudinary",
     tags: [
       {
-        name: "nextjs",
+        name: "mern",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "github",
         color: "green-text-gradient",
       },
       {
